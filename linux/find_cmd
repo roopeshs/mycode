@@ -1,0 +1,2 @@
+echo find $2 -regextype posix-extended -iregex "\".*\.[^($1)/]+\"":
+find $2 -regextype posix-extended -iregex ".*\.[^($1)/]+"
